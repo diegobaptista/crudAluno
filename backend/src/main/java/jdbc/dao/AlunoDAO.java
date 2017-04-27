@@ -6,7 +6,9 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.mysql.jdbc.PreparedStatement;
+import java.sql.PreparedStatement;
+//import com.mysql.jdbc.PreparedStatement;
+
 
 import jdbc.ConnectionFactory;
 import com.jdriven.ng2boot.Aluno;

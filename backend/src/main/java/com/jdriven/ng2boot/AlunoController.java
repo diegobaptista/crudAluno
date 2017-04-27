@@ -91,7 +91,6 @@ public class AlunoController {
 	@CrossOrigin
 	@RequestMapping(value = "/alunos/{id}", method = RequestMethod.DELETE)
 	public ResponseEntity<?> deletar(@PathVariable("id") int id) {
-		List<Aluno> alunosGet = new ArrayList<Aluno>();
 		//String idConfirm = "";
 	  //Aluno aluno = alunos.remove(id);
 		alunoDao.excluir(id);
